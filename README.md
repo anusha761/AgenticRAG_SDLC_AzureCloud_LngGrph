@@ -4,7 +4,7 @@ An intelligent, multi-domain chatbot powered by Agentic Retrieval-Augmented Gene
 
 ## Objective
 
-This chatbot is designed to support fast-growing tech teams, especially when onboarding freshers into Software Development or Azure Cloud roles. It enables users to quickly clarify domain-specific concepts and practices without relying on constant expert support. By handling multiple domains in one interface, it benefits cross-functional teams—developers, QA, DevOps, and cloud engineers—by improving knowledge access, reducing repeated queries, and streamlining onboarding.
+This chatbot is designed to support fast-growing tech teams, especially when onboarding freshers into Software Development or Azure Cloud roles. The chatbot uses domain-specific routing to maintain high precision and separation of concerns. It enables users to quickly clarify domain-specific concepts and practices without relying on constant expert support. By handling multiple domains in one interface, it benefits cross-functional teams—developers and cloud engineers—by improving knowledge access, reducing repeated queries, and streamlining onboarding.
 
 The system uses dedicated vector stores for each domain (SDLC and Azure Cloud), which ensures:
 - More accurate, domain-relevant answers

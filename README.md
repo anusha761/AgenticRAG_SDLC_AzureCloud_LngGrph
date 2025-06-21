@@ -4,18 +4,15 @@ An intelligent, multi-domain chatbot powered by Agentic Retrieval-Augmented Gene
 
 ## Objective
 
-This project demonstrates how AI engineers can use LangGraph to design composable and agentic RAG pipelines that:
+This chatbot is designed to support fast-growing tech teams, especially when onboarding freshers into Software Development or Azure Cloud roles. It enables users to quickly clarify domain-specific concepts and practices without relying on constant expert support. By handling multiple domains in one interface, it benefits cross-functional teams—developers, QA, DevOps, and cloud engineers—by improving knowledge access, reducing repeated queries, and streamlining onboarding.
 
-- Dynamically route user questions based on domain (SDLC or Azure Cloud)
-- Retrieve domain-specific context using Chroma vector stores
-- Generate grounded, natural-language answers using large language models (LLMs)
+The system uses dedicated vector stores for each domain (SDLC and Azure Cloud), which ensures:
+- More accurate, domain-relevant answers
+- Faster retrieval with smaller, focused indexes
+- Easy scalability to new domains
+- Clean separation of knowledge areas
 
-This chatbot is useful for:
-
-- AI and ML Engineers  
-- Cloud and DevOps Professionals  
-- Technical Interview Preparation  
-- Teams seeking fast, domain-specific knowledge access
+This makes the chatbot both practical for day-to-day use and scalable for enterprise needs.
 
 ## Architecture Overview
 

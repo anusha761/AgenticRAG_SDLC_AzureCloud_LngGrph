@@ -51,18 +51,19 @@ streamlit run main.py
 
 | Component         | Technology Used                          |
 |------------------|------------------------------------------|
-| Language Model    | HuggingFace Transformers (LLMs)         |
-| Retrieval Layer   | LangChain + ChromaDB Vector Store       |
-| Embedding Model   | Sentence Transformers / HuggingFace     |
-| Database          | ChromaDB (for vector storage & search)  |
-| Orchestration     | LangChain                               |
+| Language Model    | OpenAI GPT-3.5 via LangChain         |
+| Retrieval Layer   | LangChain RetrievalQA       |
+| Embedding Model   | Sentence Transformers (MiniLM-L6-v2)     |
+| Database          | ChromaDB |
+| Prompt Framework          | LangChain ChatPromptTemplate |
+| Orchestration     | LangGraph (LangChain)                               |
 | Frontend UI       | Streamlit                               |
 
 ## Streamlit UI Screenshots
 
 To view the chatbot interface and how users interact with the system in real time, refer to the screenshot provided in the PDF below:
 
-📄 [View Streamlit UI Screenshots](./outputScreenshots.pdf)
+📄 [View Streamlit UI Screenshots](./output_screenshots.pdf)
 
 This PDF showcases:
 

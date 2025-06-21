@@ -78,6 +78,8 @@ Below are the versions of the core libraries used in this project:
 - langgraph==0.4.8
 - langchain-core==0.3.63
 - langchain-community==0.3.25
+- langchain-chroma==0.2.4
+- langchain-huggingface==0.3.0
 - chromadb==1.0.13
 - openai==1.80.0
 - sentence-transformers==3.4.1

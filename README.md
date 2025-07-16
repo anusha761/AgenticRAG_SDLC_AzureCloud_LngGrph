@@ -58,17 +58,20 @@ streamlit run main.py
 
 ## Streamlit UI Screenshots
 
-To view the chatbot interface and how users interact with the system in real time, refer to the screenshot provided in the PDF below:
+To view the chatbot interface and how users interact with the system in real time, refer to the output screenshot below:
 
-📄 [View Streamlit UI Screenshots](./output_screenshots.pdf)
+<img width="624" height="852" alt="image" src="https://github.com/user-attachments/assets/326454b9-fa92-456d-a4e9-ff89c1029194" />
 
-This PDF showcases:
+This output showcases:
 
 - The user input field for asking SDLC and Azure Cloud related questions
 - Model-generated answers
 - Clean and responsive Streamlit layout
 - Real-time query response flow
   
+For convenience, the output is also available in PDF form:
+
+📄 [View Streamlit UI Screenshots](./output_screenshots.pdf)
 
 ## Library Versions
 
